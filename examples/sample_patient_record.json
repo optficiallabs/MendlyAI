@@ -1,0 +1,20 @@
+{
+  "record_id": "SYN-0001",
+  "patient": {
+    "name": "Synthetic Patient",
+    "age": 42,
+    "sex": "female"
+  },
+  "encounter": {
+    "type": "outpatient",
+    "chief_complaint": "fever and cough",
+    "duration_days": 3
+  },
+  "observations": {
+    "temperature_c": 38.1,
+    "heart_rate_bpm": 92,
+    "oxygen_saturation_percent": 97
+  },
+  "medications": [],
+  "notes": "This is a fully synthetic example for software testing and documentation only."
+}
