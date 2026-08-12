@@ -432,7 +432,7 @@ MendlyAI is being developed by the Optficial Labs team.
 **Dr. Asadi Srinivasulu — Chief Advisor**
 Research direction, technical guidance, evaluation, and project oversight.
 
-**Tarkeswar Barua — R&D Head**
+**Dr. Tarkeswar Barua — R&D Head**
 Research planning, technical validation, development supervision, and testing.
 
 **Dr. Pradeep G — Project Coordinator**
