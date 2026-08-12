@@ -1,0 +1,2 @@
+# MendlyAI currently uses only the Python standard library at runtime.
+# Add pinned third-party dependencies here as modules are introduced.
