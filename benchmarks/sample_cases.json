@@ -1,0 +1,38 @@
+[
+  {
+    "id": "api-001",
+    "category": "api_validation",
+    "input": {
+      "patient_id": "SYN-1001",
+      "age": 45,
+      "department": "General Medicine"
+    },
+    "expected": "valid",
+    "reason": "Required synthetic fields are present with expected simple types."
+  },
+  {
+    "id": "api-002",
+    "category": "api_validation",
+    "input": {
+      "age": "forty-five",
+      "department": "General Medicine"
+    },
+    "expected": "review_required",
+    "reason": "A required identifier is missing and age uses an unexpected type."
+  },
+  {
+    "id": "log-001",
+    "category": "privacy_safe_logging",
+    "input": {
+      "patient_id": "SYN-1002",
+      "name": "Synthetic Patient",
+      "status": "scheduled"
+    },
+    "expected": {
+      "patient_id": "***REDACTED***",
+      "name": "***REDACTED***",
+      "status": "scheduled"
+    },
+    "reason": "Sensitive identifiers should be redacted while non-sensitive workflow fields remain available."
+  }
+]
